@@ -1,0 +1,41 @@
+v 4
+file . "Tb_ex5.vhd" "4cd23779e2c2b05f90b465d23c05cbc39c4a4d8c" "20261111005030.472":
+  entity tb_ex5 at 1( 0) + 0 on 35;
+  architecture sim of tb_ex5 at 3( 91) + 0 on 36;
+file . "Ex4_shift.vhd" "1fe1f29733f823c7cae9c027d649412d644e1960" "20261111004038.915":
+  entity siso_shl8_load at 2( 1) + 0 on 27;
+  architecture rtl of siso_shl8_load at 8( 203) + 0 on 28;
+  entity shift_lr8_sipo at 25( 588) + 0 on 29;
+  architecture rtl of shift_lr8_sipo at 30( 759) + 0 on 30;
+file . "Ex3_Accumulator.vhd" "ee61e267a60b3257892ee336b524c5a6c724befa" "20261111003638.767":
+  entity accumulator4 at 2( 1) + 0 on 23;
+  architecture rtl of accumulator4 at 8( 215) + 0 on 24;
+file . "Ex2_counters.vhd" "d51a3f077514b8be2c1dca5786afb1630dbe7098" "20261111003053.948":
+  entity down_cnt_sset at 2( 1) + 0 on 17;
+  architecture rtl of down_cnt_sset at 7( 186) + 0 on 18;
+  entity signed_up_cnt_areset at 23( 551) + 0 on 19;
+  architecture rtl of signed_up_cnt_areset at 28( 737) + 0 on 20;
+file . "Ex1_registers.vhd" "a01d5f22cc36b02dadf72a45536579edcbc312d9" "20261111002037.551":
+  entity reg4_negedge_aclr at 1( 0) + 0 on 11;
+  architecture rtl of reg4_negedge_aclr at 7( 213) + 0 on 12;
+  entity reg_posedge_aset_en at 20( 466) + 0 on 13;
+  architecture rtl of reg_posedge_aset_en at 27( 716) + 0 on 14;
+file . "Tb_ex1.vhd" "1c8bb021ff4439c093b1722893ef5f179bbba607" "20261111002147.738":
+  entity tb_ex1 at 1( 0) + 0 on 15;
+  architecture sim of tb_ex1 at 3( 65) + 0 on 16;
+file . "Tb_ex2.vhd" "3618033316bb56b3fc73ae8344a82588191d72ca" "20261111003108.430":
+  entity tb_ex2 at 1( 0) + 0 on 21;
+  architecture sim of tb_ex2 at 3( 91) + 0 on 22;
+file . "Tb_ex3.vhd" "3d50c525d90220dc193524e118b6c6d51379df2f" "20261111003645.645":
+  entity tb_ex3 at 1( 0) + 0 on 25;
+  architecture sim of tb_ex3 at 3( 91) + 0 on 26;
+file . "Ex5_presetUpdown.vhd" "d6560b31fbb2a4cea1d6d52180740c5cffbfc4b1" "20261111005024.119":
+  entity up_cnt_preset at 2( 1) + 0 on 31;
+  architecture rtl of up_cnt_preset at 8( 224) + 0 on 32;
+  entity updown_cnt_aclr at 24( 546) + 0 on 33;
+  architecture rtl of updown_cnt_aclr at 29( 734) + 0 on 34;
+file . "Ex6_Gray.vhd" "ae6d8104e2bdc398848cd56c442af2fe0568d1b6" "20261111005437.067":
+  entity gray_case at 2( 1) + 0 on 41;
+  architecture rtl of gray_case at 7( 156) + 0 on 42;
+  entity gray_bin at 31( 764) + 0 on 43;
+  architecture rtl of gray_bin at 36( 944) + 0 on 44;

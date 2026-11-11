@@ -1,0 +1,17 @@
+v 4
+file . "Tb_ex6.vhd" "075e2e3f2e1d423806ec2c2536e1fa0164ba2030" "20261111005657.811":
+  entity tb_ex6 at 1( 0) + 0 on 21;
+  architecture sim of tb_ex6 at 3( 91) + 0 on 22;
+file . "Tb_ex4.vhd" "479c1198ad65bc4c8411d9f740f29b7dd565813b" "20261111004249.773":
+  entity tb_ex4 at 1( 0) + 0 on 15;
+  architecture sim of tb_ex4 at 3( 65) + 0 on 16;
+file . "Ex4_shift.vhd" "1fe1f29733f823c7cae9c027d649412d644e1960" "20261111004249.746":
+  entity siso_shl8_load at 2( 1) + 0 on 11;
+  architecture rtl of siso_shl8_load at 8( 203) + 0 on 12;
+  entity shift_lr8_sipo at 25( 588) + 0 on 13;
+  architecture rtl of shift_lr8_sipo at 30( 759) + 0 on 14;
+file . "Ex6_Gray.vhd" "ae6d8104e2bdc398848cd56c442af2fe0568d1b6" "20261111005657.781":
+  entity gray_case at 2( 1) + 0 on 17;
+  architecture rtl of gray_case at 7( 156) + 0 on 18;
+  entity gray_bin at 31( 764) + 0 on 19;
+  architecture rtl of gray_bin at 36( 944) + 0 on 20;
